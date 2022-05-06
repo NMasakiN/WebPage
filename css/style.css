@@ -1,0 +1,168 @@
+html,body {height: 100%;}
+body {
+	margin: 0px;
+	padding: 0px;
+	color: #333;	
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size: 16px;	
+	line-height: 2;		
+	background: #ffffff;	
+	-webkit-text-size-adjust: none;
+}
+h1,h2,h3,h4,h5,p,ul,ol,li,dl,dt,dd,form,figure,form {margin: 0px;padding: 0px;font-size: 100%;font-weight: normal;}
+ul {list-style-type: none;}
+ol {padding-left: 40px;padding-bottom: 15px;}
+img {border: none;max-width: 100%;height: auto;vertical-align: middle;}
+table {border-collapse:collapse;font-size: 100%;border-spacing: 0;}
+/*ヘッダー画面*/
+header {
+    height: 100%;
+    overflow: auto;
+    position: relative;
+    background: url(../pic/Jinzu_River.jpg) no-repeat center center/cover;
+}
+
+#hea {
+    color:white;
+    text-align: center;
+    font-size: 120px;
+    margin-top: 15%;
+    font-style:normal;
+}
+
+
+.menu {
+    color: white;
+}
+
+#menubar {
+    position:absolute;
+    top: 0%;
+    left: 0px;
+    width: 100%;
+    text-align: center;
+    background-color: #333;
+}
+#menubar li {
+    display:inline-flex  ;
+    margin: 0 5%;
+    animation-name: opa1;
+    animation-delay: 10ms;
+    animation-duration: 20ms;
+    animation-fill-mode: both;
+}
+
+/*メニュー画面*/
+h2 {
+    color:blue;
+    font-size : 48px;
+    font-style: italic;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 0%;
+    margin-bottom: 20px;
+    background-color: gray;
+    border-radius: 100px;
+    padding: 0px;
+    background-position: 200px 200px;
+    margin-top:10px;
+}
+
+
+/*プロフィール欄*/
+
+.ta1 {
+    table-layout: flex;
+    width: 100%;
+    margin:10px 250px 20px;
+}
+
+.ta1, .ta1 td, .ta1 th {
+	word-break: break-all;
+	border: 2px solid black;	/*テーブルの枠線の幅、線種、色*/
+	padding: 10px;			/*テーブル内の余白*/
+}
+/*テーブルの左側ボックス*/
+.ta1 th {
+	text-align: center;	/*センタリング*/
+	width: 30%;			/*幅*/
+    font-size: 20px;
+}
+.ta1 td {
+    text-align: center;
+    width : 100%;
+    font-size:20px;
+}
+
+#mypic {
+    height :500px;
+    width:auto;
+    display:inline;
+    margin-left:200px;
+}
+
+#PicAndText {
+    display: flex;
+}
+
+#carrer {
+    text-align: auto;
+
+}
+
+
+
+/*リサーチ欄*/
+#rescont {
+    text-align: center;
+    font-size: 16px;
+}
+
+
+/*リンク欄*/
+
+#handai {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 200px;
+    width: 200px;
+    font-size: 24px;
+}
+
+#haradaken {
+    margin-top: 48px;
+    text-align: center;
+    font-size: 24px;
+}
+
+/*コンタクト欄*/
+
+#cont {
+    text-align: center;
+    font-size: 32px;
+}
+#mail {
+    text-align: center;
+    font-size: 24px;
+}
+
+
+
+
+/*アクセス欄*/
+#place {
+    text-align: center;
+    font-size: 32px;
+}
+
+iframe {
+    height: 90%;
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
