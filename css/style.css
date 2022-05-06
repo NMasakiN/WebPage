@@ -75,7 +75,7 @@ h2 {
 .ta1 {
     table-layout: flex;
     width: 100%;
-    margin:10px 250px 20px;
+    margin:10px 100px 20px;
 }
 
 .ta1, .ta1 td, .ta1 th {
@@ -86,20 +86,20 @@ h2 {
 /*テーブルの左側ボックス*/
 .ta1 th {
 	text-align: center;	/*センタリング*/
-	width: 30%;			/*幅*/
+	width: 25%;			/*幅*/
     font-size: 20px;
 }
 .ta1 td {
     text-align: center;
-    width : 100%;
+    width : 75%;
     font-size:20px;
 }
 
 #mypic {
-    height :500px;
+    height :350px;
     width:auto;
     display:inline;
-    margin-left:200px;
+    margin-left:400px;
 }
 
 #PicAndText {
@@ -137,6 +137,12 @@ h2 {
     text-align: center;
     font-size: 24px;
 }
+
+#haradakenpic {
+    height: 200px;
+    width: auto;
+}
+
 
 /*コンタクト欄*/
 
